@@ -18,4 +18,4 @@ while true
 do
  filename=$(nc -l 5555)
  nc -l 5556 > $1/$(basename $filename)
-done
+done 
